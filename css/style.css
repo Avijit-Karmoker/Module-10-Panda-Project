@@ -5,3 +5,22 @@ body{
 .main-footer{
     height: 300px;
 }
+
+.shoe-card{
+    border: 0;
+}
+
+.shoe-button{
+    background-color: #fff;
+    border: 0;
+}
+
+.catagories img{
+    width: 100px;
+}
+
+.panda-slide .carousel-item{
+    background: #FCEAE8;
+    border-radius: 1em;
+}
+
