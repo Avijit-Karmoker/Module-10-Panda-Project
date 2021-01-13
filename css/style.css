@@ -2,17 +2,66 @@ body{
     margin: 0;
 }
 
+.main-container{
+    width: 60%;
+    margin: auto;
+}
+
+.navigation{
+    margin-bottom: 100px;
+}
+
+.panda-slide{
+    margin-bottom: 100px;
+}
+
 .main-footer{
     height: 300px;
 }
 
+.catagories{
+    padding: 0;
+}
+
+.catagory-section-1,
+.catagory-section-2,
+.catagory-section-3{
+    border-radius: 10px;
+}
+
+.catagory-section-1{
+    background-color: #FFA500;
+}
+
+.catagory-section-2{
+    background-color: #DA70D6;
+}
+
+.catagory-section-3{
+    background-color: #0000FF;
+}
+
+
+.watch{
+    padding-right: 50px;
+}
+
 .shoe-card{
     border: 0;
+    border-radius: 10px;
 }
 
 .shoe-button{
     background-color: #fff;
     border: 0;
+    border-radius: 10px;
+}
+
+.buy-button{
+    padding: 10px 20px;
+    color: #fff;
+    background: linear-gradient(#FF5398, #FF1872);
+    border-radius: 10px;
 }
 
 .catagories img{
@@ -22,5 +71,35 @@ body{
 .panda-slide .carousel-item{
     background: #FCEAE8;
     border-radius: 1em;
+}
+
+.main-footer{
+    background: #FCEAE8;
+    border-radius: 10px;
+}
+
+.submit-button{
+    background: linear-gradient(#FF5398, #FF1872);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.box{
+    text-align: center;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+.input{
+    border: 1px solid #CED4DA;
+    padding: 8px 60px;
+    border-radius: 8px;
+}
+
+.subscription{
+    margin: 100px 0;
+    padding: 0;
 }
 

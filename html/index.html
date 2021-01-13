@@ -12,9 +12,9 @@
 <body>
 
     <!--   header(navigation bar, carusel,)     -->
-
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="main-container">
+        <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Panda E-commarce"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +39,7 @@
                                 <h1>Mega LCD TV For Sports</h1>
                                 <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
                                 <h3>$1200</h3>
+                                <button class="btn buy-button">Buy Now</button>
                             </div>
                             <div class="col-md-5">
                                 <img src="../images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -51,6 +52,7 @@
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                                 <h3>$420</h3>
+                                <button class="btn buy-button">Buy Now</button>
                             </div>
                             <div class="col-md-5">
                                 <img src="../images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -63,6 +65,7 @@
                                 <h1>X-Box for your living room</h1>
                                 <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
                                 <h3>$600</h3>
+                                <button class="btn buy-button">Buy Now >></button>
                             </div>
                             <div class="col-md-5">
                                 <img src="../images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -88,20 +91,20 @@
         <section class="catagory">
             <div class="container overflow-hidden mt-5 mb-5 catagories">
                 <div class="row g-5">
-                    <div class="col">
-                        <div class="d-flex p-3 rounded bg-warning align-items-center justify-content-around">
-                            <h1 class="text-white">Watch</h1>
+                    <div class="col catagory-section">
+                        <div class="d-flex p-3 align-items-center justify-content-around catagory-section-1">
+                            <h1 class="text-white watch">Watch</h1>
                             <img src="../images/categories/watch.png" alt="Watch">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex p-3 rounded bg-success align-items-center justify-content-around">
+                        <div class="d-flex p-3 align-items-center justify-content-around catagory-section-2">
                             <h1 class="text-white">Bag</h1>
                             <img src="../images/categories/bag.png" alt="Bag">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex p-3 rounded bg-primary align-items-center justify-content-around">
+                        <div class="d-flex p-3 align-items-center justify-content-around catagory-section-3">
                             <h1 class="text-white">Shoes</h1>
                             <img src="../images/categories/shoes.png" alt="Shoes">
                         </div>
@@ -124,7 +127,7 @@
                             <h5>$120</h5>
                         </div>
                         <div class="card-footer shoe-button">
-                            <button class="btn btn-warning">Buy Now >></button>
+                            <button class="btn buy-button">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -137,7 +140,7 @@
                             <h5>$320</h5>
                         </div>
                         <div class="card-footer shoe-button">
-                            <button class="btn btn-warning">Buy Now >></button>
+                            <button class="btn buy-button">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -150,7 +153,7 @@
                             <h5>$350</h5>
                         </div>
                         <div class="card-footer shoe-button">
-                            <button class="btn btn-warning">Buy Now >></button>
+                            <button class="btn buy-button">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -171,7 +174,7 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer shoe-button">
-                            <button class="btn btn-warning">Buy Now >></button>
+                            <button class="btn buy-button">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -184,7 +187,7 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer shoe-button">
-                            <button class="btn btn-warning">Buy Now >></button>
+                            <button class="btn buy-button">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -197,26 +200,29 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer shoe-button">
-                            <button class="btn btn-warning">Buy Now >></button>
+                            <button class="btn buy-button">Buy Now >></button>
                         </div>
                     </div>
                 </div>
             </div>
         </sections>
-        <section id="subscribe" class="main-footer d-flex justify-content-center align-items-center container">
+        <section id="subscribe" class="main-footer d-flex justify-content-center align-items-center container subscription">
             <div class="box">
                 <h1>LET'S STAY IN TOUCH</h1>
                 <h5>Get updates on sales, specials and more</h5>
-                <input type="text" name="" id="">
-                <button class="btn btn-primary" placeholder="Enter your email address">SUBMIT</button>
+                <input class="input" type="text" name="" id="">
+                <div class="button">
+                    <button class="btn submit-button" placeholder="Enter your email address">SUBMIT</button>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="text-center mt-5">
+    <footer class="text-center mt-5 copy-right">
         <small>
             &copy;2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.
         </small>
     </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
